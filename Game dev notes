@@ -1,0 +1,8 @@
+ Camera control:
+ Use an Azimoth Aim on X axis to control rotation around a horizontal ONLY plane respective of the ground plane.
+	- Add this to the localRotation component
+	- This localRotation should target the Azimuth Gimbal, so that it affects only X rotation
+	
+Use an input Axis Vertical component to control rotation around a Spring arm component.
+	- The Local rotation component should target the spring arm itself.
+	-  Use a multiplier to configure the rotation speed. 

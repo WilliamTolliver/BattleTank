@@ -1,0 +1,17 @@
+Using  Skysphere:
+	Add the BP_Sky_Sphere
+	- scale it properly and set sun height and brightness
+
+UI main menus:
+	- Create a new level for the main menus
+	- Create a new IU widget blueprint
+	- Add all pertinent  UI elements inside this widget. 
+	- You can override the onClick event to cause the interactions to take effects.
+	
+Adding controls to start game:
+	in the main menu event graph:
+		- get Player controller
+		- add the custom event that the widget is ready
+		- and get whatever button is necessary to take action in ui menu
+		- attach an onClick(from button widget) even to execute open level
+			- This level should be for your main game level, or next splash/load screen
